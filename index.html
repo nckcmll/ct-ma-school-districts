@@ -34,13 +34,13 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#section1">EDIT Section 1</a>
+            <a class="nav-link js-scroll-trigger" href="#section1">Introduction</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#section2">EDIT Section 2</a>
+            <a class="nav-link js-scroll-trigger" href="#section2">Massachusetts Data</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#section3">EDIT Section 3</a>
+            <a class="nav-link js-scroll-trigger" href="#section3">How We Got Our Data</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#section4">EDIT Section 4</a>
@@ -53,10 +53,10 @@
 
   <header class="bg-primary text-white">
     <div class="container text-center">
-      <h1>Nick's practice data story</h1>
-      <p class="lead">by Nick Cimillo here</p>
-      <p class="lead">Last updated on November 19, 2025</p>
-      <p class="lead">for Data Visualization for All</br>with Prof. Jack Dougherty</br>Trinity College, Hartford CT, USA</p>
+      <h1>Are Southern New England Schools Racially Equitable? An Analysis of Racial Funding Gaps in CT and MA School Districts</h1>
+      <p class="lead">by Nick Cimillo '26 and Loretta Garcia '27 here</p>
+      <p class="lead">Last updated on November 23, 2025</p>
+      <p class="lead">for EDUC 206 - Data Visualization for All</br>with Prof. Jack Dougherty</br>Trinity College, Hartford CT, USA</p>
     </div>
   </header>
 
@@ -66,21 +66,11 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
 
-          <h2>EDIT Section 1 label</h2>
+          <h2>Introduction</h2>
 
-          <p class="lead">Pull readers into your data story with a compelling introduction. Notice how this paragraph appears in a larger font than others, because the HTML code begins with a "lead" class.</p>
+          <p><a href='https://schoolstatefinance.org/'>The School + State Finance Project</a> is a non-profit organization whose stated aim is to work with Connecticut policymakers to eliminate disparities in funding education funding across the state. This work includes addressing and researching how funding varies across districts based on certain student enrollment demographics, such as being low-income, a multilingual learner, or having a disability. But the project’s main focus, as well as that of this data story, is school funding gaps along racial/ethnic lines; as the project has found, decades of exclusionary policies and laws have left Connecticut segregated, with the state’s towns that have the highest percentages of Black, Indigenous, Latino, and any other person of color (BILPOC) residents frequently having some of the lowest median household incomes in the state <a href='https://schoolstatefinance.org/issues/segregated-connecticut'>(source)</a>. </p>
 
-          <p>A good introduction raises your guiding question, outlines key findings that answer it, and explains why it matters to both our community partner. Since you also need to provide essential background information for general readers, a typical introduction requires at least 2-3 paragraphs.</p>
-
-          <p>Compose your data story in your Google Doc, where it's easier to write and edit, especially when working with other people. When you're ready, create your own copy of this <a href="https://github.com/DataVizForAll/dataviz-story-template">GitHub dataviz-story-template </a>, and publish it online using Settings > Pages. When your version is published, copy and paste the live web link into your README file so you can easily find it.</p>
-
-          <p>In your GitHub copy of this template, open the "index.html" file to see how everything must be written in HTML format. Click the pencil symbol in GithHub to edit the file. HINT: In the upper-right corner, switch the dropdown menu from "No Wrap" to "Soft Wrap" to easily view long segments of code in your screen.</p>
-
-          <p>Paragraphs like this one must begin with a "p" tag and end with a "p" closing tag.</p>
-
-          <p>Links must begin and end with "a" anchor tags, with the web address inside either single or double quotes. If you need guidance, check out this <a href='https://www.w3schools.com/html/html_basic.asp'>W3Schools HTML Tutorial</a>.
-
-          <p>Change default navigation labels (such as "Section 1") to customized labels to guide your readers. While some authors use traditional headers (such as "Findings" or "Sources & Methods"), you're welcome to innovate with more creative headers (such as "Why It Matters" or "How We Made This"). Be sure to EDIT names in TWO locations in the template: the Navigation Container (around lines 30-50) and the corresponding Sections labels further below. EDIT only the reader-friendly labels, and do not change the underlying code.</p>
+          <p>Our work here continues from this question of how state spending varies across Connecticut school districts, particularly by using spending per enrolled student as a metric. While much of the groundwork regarding this question has been laid by the School + State Finance Project, we hope to offer a more regional analysis by studying similar data in the neighboring state of Massachusetts. Our hope is that, by expanding our scope of analysis to southern New England in this way, we can find patterns between these two states that might pave the way for researching new potential remedies, while simultaneously raising awareness of financial inequality that impacts a broader swath of American youths.</p>
 
         </div>
       </div>
@@ -94,16 +84,15 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
 
-          <h2>EDIT Section 2 Label</h2>
+          <h2>Massachusetts Data</h2>
 
-          <p>TELL your story and SHOW your evidence. When describing charts, maps, or tables that appear further below, refer to them "...as shown in Figure 1" or "...as shown in Table 1" and include those figure/table numbers in the titles or captions below.</p>
+          <iframe title="Median Household Income in MA Towns and Percent BILPOC District Enrollment" aria-label="Choropleth map" id="datawrapper-chart-SVv1M" src="https://datawrapper.dwcdn.net/SVv1M/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="560" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>
 
-          <p>Embed each of your published visualizations as an HTML iframe code, following instructions in <a href='https://handsondataviz.org/embed.html'>Chapter 9 of HODV</a>, similar to the sample below.</p>
+          <p>Figures 1 and 2: A map of median household income in Massachusetts, compared with a table of MA school district BILPOC enrollment percentages.</p>
 
-          <iframe title="Connecticut created desegregated schools for only 41 percent of Hartford Black &amp;amp; Latino students in 2019-20" aria-label="Interactive area chart" id="datawrapper-chart-fdcm0" src="https://datawrapper.dwcdn.net/fdcm0/8/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
-          </script>
+          <p>The map above reveals that some of the towns in Massachusetts with the highest median household income are in the eastern half of the state, mainly surrounding Boston. The table of MA school districts, on the other hand, reveals that these wealthy suburbs routinely have lower percentages of BILPOC students enrolled in their local districts. Take Tewksbury; the map reveals it to have a median household income of $234.6K, while the table shows that its town school district has a BILPOC enrollment of only 22.2%. Similarly, Wilmington, which has one of the highest median incomes at $250k, has a BILPOC enrollment of 19.7%.</p>
 
-          <p>EDIT CAPTIONS like this -- Figure 1: Explore the <a href="https://datawrapper.dwcdn.net/fdcm0/">interactive chart</a> AND ADD your description of the chart here. Make sure your caption includes a direct link to your published chart or map in case the embed code fails to display.</p>
+          <p>Some of MA’s school districts are regional, and thus could not be placed precisely on the state map. Others are charter school districts, routinely have very high percentages of BILPOC students. An interesting example can be seen with the Foxborough Regional Charter district, which has a rather high BILPOC enrollment of 85.3%. But the town’s school district has only 27.3% BILPOC enrollment, and its median household income is also one of the highest visible on the map at $250k. This observation calls into question whether or not these regional/charter districts, which seem predominantly BILPOC, have similar levels of school funding as predominantly white ones, even when they’re within the same region.</p>
 
         </div>
       </div>
@@ -117,42 +106,16 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
 
-          <h2>EDIT Section 3 Label</h2>
+          <h2>How We Got Our Data</h2>
 
-          <p>Create a separate section to describe how you obtained your data, key steps in your process, and cautions for interpreting its meaning. Write for an audience of future Trinity College students who may wish to replicate your steps. Write in HTML format and always include links to data sources, like this example from <a href='https://data.ct.gov'>CT Open Data</a>. Also link to your shared Google Sheets when appropriate.</p>
+          <p> Our data for Massachusetts came from ACS Social Explorer as well as the Massachusetts Department of Elementary and Secondary Education. Our two-in-one visualization consisting of a map and chart allows the viewer to go back and forth between locating a town’s median household income and searching for its BILPOC enrollment. These could not easily be overlaid onto one visualization because some of MA’s school districts don’t have clear geographic boundaries, being regional instead of within a town’s boundaries. </p>
 
-          <p>Give credit to people, organizations, resources, and tools that helped you to create this data story. Write in HTML format and include links when appropriate. When you paraphrase or quote from a specific reading, cite it using any standard academic citation style (such as MLA or APA inline citations), and include the full reference in a bibliography section at the end of your data story. For help with creating citations, I highly recommend the <a href='https://zbib.org'>Zbib.org</a> tool. Insert any URL, but you may need to click the Edit button to manually add missing details, such as author and date if the tool does not automatically recognize them, as shown in Image 1 and 2 below.</p>
-
-          <img src="screenshots/sample-zbib1.png" style="width: 100%; margin: 30px 0">
-          <p><i>Image 1: After inserting a URL into the ZBib.org tool, you may need to click the Edit button to manually add missing details.</i></p>
-
-          <img src="screenshots/sample-zbib2.png" style="width: 100%; margin: 30px 0">
-          <p><i>Image 2: Clicking the Edit button in ZBib allows you to enter or correct missing details, such as the full Website Title.</i></p>
-
-          <p>Below are sample sentences with MLA inline citations that would appear in the body of the data story, followed by the full references that would appear in the bibliography at the bottom:</p>
-
-          <h4>Sample sentences</h4>
-
-          <p>The City of Hartford recently created a housing code that requires the registration of the full names and contact information for all owners of apartment buildings -- including the officers of Limited Liability Corporations (LLCs) -- in order to "close municipal loopholes that allow anonymous slumlords to operate unchecked" (Lurye).</p>
-
-          <p>In most towns, the percentage of high-needs students enrolled in traditional public schools surpasses those enrolled in magnet, charter, and technical schools in the most recent academic year (“Resident Town Export”).</p>
-
-          <p>...later, insert a bibliography at the end of your data story:</p>
+          <p>We found data for CT by going to EdSight ("Per Pupil Expenditures by Funding Source"). After going to EDSight, we were able to find the data we needed and download it directly. We then put them into Google Sheets and cleaned up the data as necessary. The CT data was then cleaned up and calculations were made to obtain the specific kind of data we’re looking for: the amount of BILPOC students in each district, which we then used to calculate the percentage of BIPOC students enrolled. The main thing that we knew would be a struggle and are still working on is to make sure that we are giving accurate data by normalizing the data across states and ensuring that definitions of BILPOC for both states are the same. </p>
 
           <h4>Works Cited:</h4>
 
-          <p>Lurye, Rebecca. “New Housing Code in Hartford Would Keep Slumlords from Hiding Behind LLCs.” Hartford Courant, May 31, 2019. <a href='https://www.courant.com/community/hartford/hc-news-hartford-housing-code-20190531-hcke2jo2x5fpdgz75xf4hlv2ki-story.html'>https://www.courant.com/community/hartford/hc-news-hartford-housing-code-20190531-hcke2jo2x5fpdgz75xf4hlv2ki-story.html</a>.</p>
+          <p>“Per Pupil Expenditures by Funding Source” CT.Gov EdSight, <a href='https://public-edsight.ct.gov/overview/per-pupil-expenditures-by-function---district/per-pupil-expenditures-by-funding-source---detail?language=en_US'>https://public-edsight.ct.gov/overview/per-pupil-expenditures-by-function---district/per-pupil-expenditures-by-funding-source---detail?language=en_US</a>. Accessed 23 Nov. 2025.</p>
 
-          <p>“Resident Town Export.” CT.Gov EdSight, <a href='https://public-edsight.ct.gov/Overview/Resident-Town-Dashboard/Resident-Town-Export'>https://public-edsight.ct.gov/Overview/Resident-Town-Dashboard/Resident-Town-Export</a>. Accessed 29 Nov. 2022.</p>
-
-          <br>
-
-          <p>Optional Hint: To display a clickable web link in the bibliography, look at the HTML code in GitHub for the examples above. See how the URL appears twice: once in the "href" and again in the display text. This is not required for your data story, but it looks good and helps readers to click and view your sources.</p>
-
-        </div>
-      </div>
-    </div>
-  </section>
   <!-- End of Section 3 -->
 
   <!-- Beginning of Section 4 -->
